@@ -1,6 +1,8 @@
 import random
 first = input('開始值：')
+first = int(first)
 last = input('結束值：')
+last = int(last)
 r = random.randint(first,last)
 count = 0
 while True:
